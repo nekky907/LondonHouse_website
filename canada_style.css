@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    list-style: none;
+    transition: 0.3s;
+}
+
+.cannada-info-container {
+
+}
+
+.cannada-info-container .cannda-head{
+    display: flex;
+    justify-content: center;
+}
+.cannada-info-container .cannda-head .head-background {
+    background-color: #03498F;
+    height: 545px;
+}
+
+.cannada-info-container .cannda-head .head-background img {
+    width: 1440px;
+}
+
+.cannada-info-container .all-info{
+    display: flex;
+    justify-content: center;
+}
+
+.cannada-info-container .all-info img {
+    width: 1440px;
+}

@@ -1,0 +1,120 @@
+.footer {
+    background-color: #4F6996;
+    color: white;
+    height: 357px;
+  }
+  
+  .footer .container {
+    align-items: start;
+  }
+  
+  .footer .container .firstLine{
+    display: flex;
+    width: 1150px;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .footer .container .firstLine h2 {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+  }
+  
+  .footer .container .firstLine .flagContainer .thaiFlag {
+    margin-top: px;
+    margin-right: 10px;
+    height: 23px;
+    width: 35.18px;
+  }
+  
+  .footer .container .firstLine .flagContainer .britishFlag {
+    margin-top: px;
+    height: 23px;
+    width: 35.18px;
+  }
+  
+  .footer .container .secondLine{
+    display: flex;
+    width: 1150px;
+    margin-top: 40px;
+  }
+  
+  #map {
+    width: 350px;
+    height: 225px;
+  }
+  
+  .footer .container .secondLine .address-container {
+    width: 259px;
+    margin-left: 13px;
+    line-height: 25.2px;
+    display: flex;
+  }
+  
+  .footer .container .secondLine .address-container img {
+    width: 18px;
+    height: 25px;
+    margin: 10px;
+  }  
+  
+  .footer .container .secondLine .address-container p {
+    font-size: 21px;
+    line-height: 25.2px;
+  }
+  
+  .footer .container .secondLine .contact-container {
+    width: 259px;
+    margin-left: 13px;
+    line-height: 25.2px;
+  }
+  
+  .footer .container .secondLine .contact-container .phone-container {
+    display: flex;
+  }
+  
+  .footer .container .secondLine .contact-container .mail-container {
+    display: flex;
+  }
+  
+  .footer .container .secondLine .contact-container .facebook-container {
+    display: flex;
+  }
+  
+  .footer .container .secondLine .contact-container .phone-container img{
+    width: 23px;
+    height: 24px;
+    margin: 10px;
+  }
+  
+  .footer .container .secondLine .contact-container .mail-container img{
+    width: 24px;
+    height: 19px;
+    margin: 10px;
+  }
+  
+  .footer .container .secondLine .contact-container .facebook-container img{
+    width: 22px;
+    height: 22px;
+    margin: 10px;
+  }
+  
+  .footer .container .secondLine .contact-container .phone-container p{
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 25.2px;
+  }
+  
+  .footer .container .secondLine .contact-container .mail-container p{
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 25.2px;
+    margin-top: 5px;
+  }
+  
+  .footer .container .secondLine .contact-container .facebook-container p{
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 25.2px;
+    margin-top: 5px;
+  }

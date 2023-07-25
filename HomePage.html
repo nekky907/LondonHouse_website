@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjord+One&family=Iceberg&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Homepage_style.css">
+    <script src="main.js" defer></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCJScinb8gHMRtTxyQ4G2KBucNNm9hy6-A&callback=initMap" async defer></script>
+    <title>LONDON HOUSE</title>
+</head>
+
+<body>
+
+<!--Navigation Bar Start-->
+    <div class="navbar">
+        <div class="container flex">
+            <a href="HomePage.html"><img class="logo" src="image\London House Logo.png" alt="logo"></a>
+            <nav class="navbar">
+                <ul id="menuBar">
+                    <!--<li><a href="#COURSES">Courses</a></li>-->
+                    <li><a href="#PROGRAMS">Programs</a></li>
+                    <li><a href="TeachingAndVacancies.html">Job Opportunities</a></li>
+                    <li><a href="#contactUs">Contact Us</a></li>
+                </ul>
+            </nav>
+            <div class="flagContainer">
+                <a href=HomePageTH.html><img class="thaiFlag" src="image\Flag_of_Thailand 1.png" alt="thai_flag"></a>
+                <a href="HomePage.html"><img class="britishFlag" src="image\360_F_105438020_az8Zk34uFLw7vXgBSdPaIT1JcKpBY7Fz 1.png" alt="british_flag"></a>
+            </div>
+        </div>
+    </div>
+<!--Navigation Bar End-->
+
+<!-- Slideshow-->
+    <div class="slideshow">
+        <!--Slideshow container-->
+        <div class="slideshow-container flex">
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+                    <img src="image\800px_COLOURBOX19212591.jpg" alt="picOne">
+                </div>
+
+            <div class="mySlides fade">
+                    <img src="image\ParentsBlog_LifeAtDisney_Spotlight_DPEP_DP.jpg" alt="picTwo">
+                </div>
+
+            <div class="mySlides fade">
+                    <img src="image\maxresdefault.jpg" alt="picThree">
+                </div>
+            <!-- Next and previous buttons -->
+            <!--<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a> -->
+        </div>
+        <br>
+    </div>
+  
+<!-- The dots/circles -->
+
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div> 
+
+<!--introduce London House-->
+
+    <div class="introduceContainer">
+        <div class="introHead">
+            <h1>LONDON HOUSE</h1>
+        </div>
+        <br>
+        <div class="paragraph-container">
+            <div class="introText1">
+                <p>London House School of English, Chiang Mai was founded in 2001. We are proud to be one of the oldest language schools in the city and have been providing English language instruction in Chiang Mai for over fifteen years. 
+                    Our English School is based in northern Thailand in the picturesque mountainside town of Chiang Mai.</p>
+            </div>
+            <br>
+            <div class="introText2">
+                <p>London House is committed to maintaining and improving standards of teaching and learning both in and out of the classroom. 
+                    Our enthusiastic and dedicated English language teachers are committed to helping each student feel confident in using English in communication. We believe that the key for good communicators is all about having confidence – Confidence is all it takes.</p>
+            </div>    
+        </div>
+        <div class="bottom-p-picture">
+            <img src="image\london 1.png" alt="picture bottom paragraph">
+        </div>
+    </div>
+
+<!--COURSES Section-->
+   <!-- <div class="course-container">
+        <div class="courseHead">
+            <h2 id="COURSES">COURSES</h2>
+        </div>
+        <div class="underline1">
+            <div class="underline"></div>
+        </div>
+        <div class="course-paragraph">
+            <p>Our courses are designed in a way to cover a range of requirements;
+                <br>Our main goal is to build students confidence “Confidence, that’s all it takes”</p>
+        </div>
+        <div class="button-container flex">
+            <div class="forChildren-container">
+                <div class="forChildren-button" onclick="clickpop">
+                    <img src="image\animateButton\Property 1=Frame 2.png" alt="childrnButton">
+                </div>
+            </div>
+            <div class="forAdult-container">
+                <div class="forAdult-button">
+                    <img src="image\animateButton\Property 1=Frame 6.png" alt="childrnButton">
+                </div>
+            </div>
+            <div class="summer-container">
+                <div class="summer-button">
+                    <img src="image\animateButton\Property 1=Frame 4.png" alt="childrnButton">
+                </div>
+            </div>
+        </div>
+        <div class="model" id="popUpModel">
+            <div id="modelContent">
+                <div class="forChildren-popUp-container">
+                    <div class="picture-Child-Container">
+                        <img src="image\Ellipse 7.png" alt="childrnButton">
+                    </div>
+                    <div class="wordInfo-container">
+                        <div class="head-container">
+                            <h3>FOR CHILDREN</h3>
+                        </div>
+                        <div class="Chrd-inList">
+                            <ul>
+                                <li>General English for Young Learners.</li>
+                                <li>English and Maths for International School students and EP students.</li>
+                                <li>Creative Writing.</li>
+                                <li>Summer Camp. (Octrober and March / April)</li>
+                                <li>Private Classes.</li>
+                            </ul>
+                        </div>
+                        <div class="button-container">
+                            <button class="child-button">Sign up</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+<!--PROGRAMS Section-->
+    <div class="programs-container">
+        <div class="programsHead">
+            <h2 id="PROGRAMS">PROGRAMS</h2>
+        </div>
+        <div class="underline2">
+            <div class="underline"></div>
+        </div>
+        <div class="course-paragraph">
+            <p>Get new experiences of languages and cultures across the world with <br>
+                Walt Disney World Company and Tamwood International Collage.  </p>
+        </div>
+        <div class="button-container flex">
+            <div class="disneyButton">
+                <a href="DisneyProgram.html"><img src="image\animateButton\Group 48.png" alt="disneyButton"></a>
+            </div>
+            <div class="canadaButton">
+                <a href="Canada.html"><img src="image\animateButton\Group 49.png" alt="disneyButton"></a>
+            </div>
+        </div>
+    </div>
+
+<!--FIND OUT MORE SECTION-->
+    <div class="fom-container">
+        <div class="fomHeader">
+            <h2>FIND OUT MORE</h2>
+        </div>
+        <div class="form-container">
+            <div class="form-bg">
+                <form>
+                    <div class="firstLine">
+                        <div class="form-control1">
+                            <div class="firstnameWord"><h6>First Name<h5 style="color: brown;">&nbsp;*<h5></h6></div>
+                            <input type="text" name="first-name" placeholder="First-Name" required>
+                        </div>
+                        <div class="form-control2">
+                            <div class="familynameWord"><h6>Family Name<h5 style="color: brown;">&nbsp;*<h5></h6></div>
+                            <input type="text" name="family-name" placeholder="Family-Name" required>
+                        </div>
+                    </div>
+                    <div class="secondLine">
+                        <div class="form-control3">
+                            <h6>Phone Number</h6>
+                            <input type="text" name="phone-number" placeholder="Phone Number" required>
+                        </div>
+                        <div class="form-control4">
+                            <div class="emailWord"><h6>E-mail<h5 style="color: brown;">&nbsp;*<h5></h6></div>
+                            <input type="text" name="email" placeholder="E-mail" required>
+                        </div>
+                    </div>
+                    <div class="thirdLine">
+                        <div class="form-control5">
+                            <div class="reasonWord"><h6>Reason for Learning English</h6></div>
+                            <input type="text" name="reason" placeholder="Reason for Learning English" required>
+                        </div>
+                    </div>
+                    <div class="fourthLine">
+                        <div class="form-control6">
+                            <div class="timeCallWord"><h6>Best Time to Call</h6></div>
+                            <input type="text" name="time-call" placeholder="Best Time to Call" required>
+                        </div>
+                    </div>
+                    <div class="checkBox1">
+                        <input type="checkbox" name="collect-info" placeholder="none">
+                        <p>I allow the company to collect information and to contact me back for more details.</p>
+                    </div>
+                    <div class="checkBox2">
+                        <input type="checkbox" name="agreement" placeholder="none">
+                        <p>I have read and agree to the <a href="#">Terms and Conditions & Privacy Policy.</a></p>
+                    </div>
+                    <div class="button-holder">
+                        <input type="submit" value="SUBMIT" class="btn btn-primary">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+<!--FOOTER-->
+    <div class="footer">
+        <div class="container flex">
+            <footer>
+                <div class="firstLine">
+                    <h2 class="lndnHouse">London House School of English, Chiang Mai</h2>
+                    <div class="flagContainer">
+                        <a href=HomePageTH.html><img class="thaiFlag" src="image\Flag_of_Thailand 1.png" alt="thai_flag"></a>
+                        <a href="HomePage.html"><img class="britishFlag" src="image\360_F_105438020_az8Zk34uFLw7vXgBSdPaIT1JcKpBY7Fz 1.png" alt="british_flag"></a>
+                    </div>
+                </div>
+                <div class="secondLine">
+                    <div id="map"></div>
+                    <div class="address-container">
+                        <img src="image\Pin1.png" alt="pin">
+                        <p>London House School of English 
+                            4 Soi.8 Sripoom Road., 
+                            Muang, Chiang Mai , Thailand 50200</p>
+                    </div>
+                    <div class="contact-container">
+                        <div class="phone-container">
+                            <img src="image\phone2.png" alt="phone-number">
+                            <p id="contactUs">+66 53 417 792</p>
+                        </div>
+                        <div class="mail-container">
+                            <img src="image\mail1.png" alt="email">
+                            <p>londonhousechiangmai@gmail.com</p>
+                        </div>
+                        <div class="facebook-container">
+                            <img src="image\facebook1.png" alt="facebook">
+                            <p>www.facebook.com/londonhousecm</p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>

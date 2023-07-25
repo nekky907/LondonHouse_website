@@ -1,0 +1,817 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    list-style: none;
+    transition: 0.3s;
+}
+
+ิbody {
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+.banner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.picture-container {
+    justify-content: center;
+    align-items: center;
+    height: 457px;
+}
+
+.btn-container {
+    position: absolute;
+    width: 357px;
+    height: 457px;
+    margin-top: 200px;
+    margin-left: 800px;
+}
+
+.btn-container .btn1-container {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.btn-container .btn1-container .btn-rectangle1 {
+    width: 357px;
+    height: 141px;
+    background-color: #FFFF;
+    display: flex;
+    justify-content: center;
+    border-radius: 37px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.btn-container .btn1-container .btn1-picture  img {
+    margin-top: 19px;
+}
+
+.btn-container .btn2-container {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.btn-container .btn2-container .btn-rectangle2 {
+    width: 357px;
+    height: 67px;
+    background-color: #FFFF;
+    justify-content: center;
+    border-radius: 37px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.btn-container .btn2-container .btn-rectangle2 h5 {
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 32.4px;
+    letter-spacing: 5.5%;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    color: #022e4d;
+    margin-top: 5px;
+}
+
+.btn-container .btn2-container .btn-rectangle2 p {
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 30px;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    color: #0f80cc;
+}
+
+.btn-container .btn3-container {
+    position: relative;
+}
+
+.btn-container .btn3-container .btn-rectangle3 {
+    width: 357px;
+    height: 67px;
+    background-color: #FFFF;
+    justify-content: center;
+    align-items: center;
+    border-radius: 37px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.btn-container .btn3-container .btn-rectangle3 h5 {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    color: #022e4d;
+}
+
+.btn-container .btn3-container .btn-rectangle3 p {
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 30px;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    color: #0f80cc;
+}
+
+.banner-bottom .bottom-container {
+    display: flex;
+    justify-content: center;
+}
+
+.banner-bottom .bottom-container .bottom-rectangle {
+    width: 1233px;
+    height: 103px;
+    border-radius: 0px 0px 20px 20px;
+    background-color: #84CBEE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.banner-bottom .bottom-container .bottom-rectangle .word-con {
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-bottom .bottom-container .bottom-rectangle .word-con h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1233px;
+    height: auto;
+    color: #1A2373;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+.banner-bottom .bottom-container .bottom-rectangle .word-con p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1233px;
+    height: auto;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: #1A2373;
+}
+
+.intro-header {
+    align-items: center;
+    justify-content: center;
+    color: #1A2373;
+}
+
+.intro-header h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    font-size: 32px;
+}
+
+.intro-header .underline-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.intro-header .underline-container .head-underline {
+    border: 1px solid;
+    background-color:#1A2373;
+    width: 719px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-header h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 21px;
+}
+.intro-paragraph {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+.intro-paragraph p {
+    width: 698px;
+    height: 125px;
+    text-align: center;
+    font-size: 21px;
+    color: #1A2373;
+    font-weight: 400;
+    line-height: 25.2px;
+}
+
+.programDetail-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+}
+
+.tellMeWhy-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+}
+
+.disneyVideo-container {
+    background-color: black;
+    width: auto;
+    height: 1400px;
+}
+
+.disneyVideo-container .video-head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.disneyVideo-container .video-mid-container .bg-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.disneyVideo-container .video-mid-container .video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.disneyVideo-container .video-mid-container .video-container iframe{
+    position: absolute;
+    margin-bottom: 900px;
+}
+
+.job-position-container .job-position-head {
+    background-color: #004f94;
+    width: auto;
+    height: 73px;
+}
+
+.job-position-container .job-position-head h2{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.job-position-container .job-position-mid {
+    background-color: #84CBEE;
+    width: auto;
+    height: 685px;
+}
+.job-position-container .job-position-bottom {
+    background-color: #004f94;
+    width: auto;
+    height: 73px;
+}
+
+
+
+#videoModal {
+    display: none; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 9999;
+  }
+  
+  #modalContent {
+    position: absolute;
+    top: 44%;
+    left: 44%;
+    transform: translate(-50%, -50%);
+    width: 760px;
+    height: 515px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  #openModalBtn {
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+.job-position-container .job-position-mid .job-position-btn-container img{
+    margin: 20px;
+}
+
+.job-position-container .job-position-mid .job-position-btn-container .job-btn-line1 {
+    display: flex;
+    margin: px;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.job-position-container .job-position-mid .job-position-btn-container .job-btn-line2 {
+    display: flex;
+    margin: px;
+    justify-content: center;
+}
+
+.place-picturecontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.make-diff-disney {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 50px 100px 50px;
+}
+
+.earn-skill-container {
+    justify-content: center;
+    align-items: center;
+}
+
+
+.earn-skill-container .earn-skill-head h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    color: #1A2373;
+    font-weight: 700;
+    line-height: 30px;
+    font-size: 25px;
+}
+
+.earn-skill-container .earn-skill-head .underline-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.earn-skill-container .earn-skill-head .head-underline{
+    border: 1px solid;
+    background-color:#1A2373;
+    width: 719px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.earn-skill-container .earn-skill-head .text-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 75px;
+}
+
+.earn-skill-container .earn-skill-head p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 21px;
+    width: 865px;
+    line-height: 25.2px;
+    color: #1A2373;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.earn-skill-container .skill-container {
+    width: auto;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.earn-skill-container .skill-container .skill-warp-line1 {
+    display: flex;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.earn-skill-container .skill-container .skill-warp-line2 {
+    display: flex;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.earn-skill-container .skill-container .skill-warp-line3 {
+    display: flex;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.earn-skill-container .skill-container .responsibility {
+    width: 244px;
+    height: 100px;
+    background-color: #b3e4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin: 10px;
+    color: #1A2373;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 30px;
+}
+.earn-skill-container .skill-container .teamwork {
+    width: 244px;
+    height: 100px;
+    background-color: #66ade9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin: 10px;
+    color: #1A2373;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 30px;
+}
+.earn-skill-container .skill-container .networking {
+    width: 244px;
+    height: 100px;
+    background-color: #9cbced;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin: 10px;
+    color: #1A2373;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 30px;
+}
+.earn-skill-container .skill-container .timeMenagement {
+    width: 244px;
+    height: 100px;
+    background-color: #c5e4fe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin: 10px;
+    color: #1A2373;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 30px;
+}
+.earn-skill-container .skill-container .communication {
+    width: 244px;
+    height: 100px;
+    background-color: #8fd7e7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin: 10px;
+    color: #1A2373;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 30px;
+}
+.earn-skill-container .skill-container .coOp {
+    width: 244px;
+    height: 100px;
+    background-color: #9cbced;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin: 10px;
+    color: #1A2373;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 30px;
+}
+.earn-skill-container .skill-container .problem {
+    width: 244px;
+    height: 100px;
+    background-color: #c5e4fe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin: 10px;
+    color: #1A2373;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 30px;
+}
+.earn-skill-container .skill-container .mutiTask {
+    width: 244px;
+    height: 100px;
+    background-color: #8fd7e7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin: 10px;
+    color: #1A2373;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 30px;
+}
+.earn-skill-container .skill-container .diversity {
+    width: 244px;
+    height: 100px;
+    background-color: #b3e4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin: 10px;
+    color: #1A2373;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 30px;
+}
+.earn-skill-container .skill-container .partnering {
+    width: 244px;
+    height: 100px;
+    background-color: #66ade9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin: 10px;
+    color: #1A2373;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 30px;
+}
+.earn-skill-container .skill-container .guest {
+    width: 244px;
+    height: 100px;
+    background-color: #b3e4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin: 10px;
+    color: #1A2373;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 30px;
+}
+.earn-skill-container .skill-container .product {
+    width: 244px;
+    height: 100px;
+    background-color: #66ade9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin: 10px;
+    color: #1A2373;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 30px;
+}
+.earn-skill-container .skill-container .profession {
+    width: 244px;
+    height: 100px;
+    background-color: #9cbced;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin: 10px;
+    color: #1A2373;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 30px;
+}
+
+
+.bottom-skill .text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 75px;
+}
+
+.bottom-skill .text-container p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 21px;
+    width: 1016px;
+    line-height: 25.2px;
+    color: #1A2373;
+    font-weight: 400;
+}
+
+.learningOverView-container {
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.learningOverView-container .bg-container {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.learningOverView-container .overView-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.learningOverView-container .overView-header h2{
+    position: absolute;
+    color: aliceblue;
+    font-size: 60px;
+    margin-bottom: 1200px;
+}
+
+.learningOverView-container .video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.learningOverView-container .video-container iframe {
+    position: absolute;
+    margin-bottom: 580px;
+}
+
+.payment-container .payment-head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.payment-container .payment-head h2 {
+    font-size: 25px;
+    line-height: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #1A2373;
+    font-weight: 700;
+    line-height: 30px;
+    font-size: 25px;
+}
+
+.payment-container .underline-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.payment-container .underline-container .underline {
+    border: 1px solid;
+    border-color: #1A2373;
+    width: 719px;
+}
+
+.payment-container .payment-info-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.qualification-container .qualification-head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.qualification-container .qualification-head h2 {
+    font-size: 25px;
+    line-height: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #1A2373;
+    font-weight: 700;
+    line-height: 30px;
+    font-size: 25px;
+}
+
+.qualification-container .underline-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.qualification-container .underline-container .underline {
+    border: 1px solid;
+    border-color: #1A2373;
+    width: 719px;
+}
+
+.qualification-container .qualification-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.howToApply-container .howToApply-head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.howToApply-container .howToApply-head h2{
+    font-size: 25px;
+    line-height: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #1A2373;
+    font-weight: 700;
+    line-height: 30px;
+    font-size: 25px;
+}
+
+.howToApply-container .underline-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.howToApply-container .underline-container .underline {
+    border: 1px solid;
+    border-color: #1A2373;
+    width: 719px;
+}
+
+.howToApply-container .howToApply-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.suggesion-container .suggesion-head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.suggesion-container .suggesion-head h2{
+    font-size: 25px;
+    line-height: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #1A2373;
+    font-weight: 700;
+    line-height: 30px;
+    font-size: 25px;
+}
+
+.suggesion-container .underline-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.suggesion-container .underline-container .underline {
+    border: 1px solid;
+    width: 719px;
+    border-color: #1A2373;
+}
+
+.suggesion-container .suggesion-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}

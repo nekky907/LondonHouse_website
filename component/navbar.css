@@ -1,0 +1,77 @@
+/*Navbar*/
+
+body {
+    font-family: 'Fjord One', serif;
+    line-height: 1.63;
+    background-color: #f5f4ed;
+}
+
+.navbar  {
+    background-color: #4F6996;
+    color: white;
+    height: 200px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    ;
+}
+
+.navbar .flex {
+  justify-content: space-around;
+}
+
+.container {
+    max-width: 1750px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 auto;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar .logo {
+    width: auto;
+    height: 150px;
+    margin-top: 20px;
+}
+
+  
+.navbar ul {
+    display: flex;
+    margin-left: 250px;
+}
+  
+.navbar ul li {
+    display: inline-block;
+    position: relative;
+}
+  
+.navbar ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    margin-right: 50px;
+    margin-top: 150px;
+}
+
+.navbar .thaiFlag {
+    margin-top: 150px;
+    margin-right: 10px;
+    height: 23px;
+    width: 35.18px;
+}
+
+.navbar .britishFlag {
+    margin-top: 150px;
+    height: 23px;
+    width: 35.18px;
+}
+  
+.navbar ul li a:hover {
+    background-color: #123954;
+}
